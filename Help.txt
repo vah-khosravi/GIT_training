@@ -1,0 +1,14 @@
+Open command prompt or terminal: windows button + cmd
+Check what is your current directory: pwd
+go to your desired directory: cd D:\your\desired\directory> 
+make new directory: md GIT_training 
+enter that directory: cd GIT_training
+Make a new git: git init
+Check the status of your git: git status
+Create a new .txt file: echo. > new_text.txt 
+Create a new .html file: echo. > new_html.html
+Create a new .html file: echo. > new_css.css
+Stage the text file: git add new_text.txt 
+Commit the change
+See the branch you are in
+
