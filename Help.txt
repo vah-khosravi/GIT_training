@@ -8,7 +8,19 @@ Check the status of your git: git status
 Create a new .txt file: echo. > new_text.txt 
 Create a new .html file: echo. > new_html.html
 Create a new .html file: echo. > new_css.css
-Stage the text file: git add new_text.txt 
-Commit the change
-See the branch you are in
-
+Create a new branch: git branch new-branch-name
+Create and Switch to It Immediately: git checkout -b new-branch-name
+Change the current branch to main: git checkout main
+Merge a branch INTO main branch: git merge branch_name
+Delete a local branch: git branch -d branch-name
+Delete a remote branch: git push origin --delete branch-name
+Stage the text file: git add new_text.txt
+Stage all files: git add . 
+Commit one file: git commit new_text.txt -m "to commit one file"
+Commit all files: git commit -m "to commit all files" 
+See the branch you are in: git branch
+Clone a git repository to the current directory: git clone <repo address>
+To connect the current git repository to a remote already existed repository: git remote add origin https://github.com/your-username/my-project.git
+To push files/commits to the remote Git: git push origin master
+To push files/commits to the local Git: git pull origin master
+ 
