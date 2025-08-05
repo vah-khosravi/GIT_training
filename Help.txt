@@ -8,6 +8,15 @@ Check the status of your git: git status
 Create a new .txt file: echo. > new_text.txt 
 Create a new .html file: echo. > new_html.html
 Create a new .html file: echo. > new_css.css
+<<<<<<< HEAD
+=======
+Create a new branch: git branch new-branch-name
+Create and Switch to It Immediately: git checkout -b new-branch-name
+Change the current branch to main: git checkout main
+Merge a branch INTO main branch: git merge branch_name
+Delete a local branch: git branch -d branch-name
+Delete a remote branch: git push origin --delete branch-name
+>>>>>>> one
 Stage the text file: git add new_text.txt
 Stage all files: git add . 
 Commit one file: git commit new_text.txt -m "to commit one file"
